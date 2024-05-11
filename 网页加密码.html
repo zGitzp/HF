@@ -1,0 +1,2025 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" href="style.css">
+		<title>分段加载示例</title>
+		<style>
+			#stage2 {
+				display: none;
+			}
+		</style>
+	</head>
+	<body>
+		<!-- <div id="stage1">
+			<label for="password">请输入密码：</label>
+			<input type="password" id="password">
+			<button onclick="checkPassword()">提交</button>
+			
+		</div>
+		<div id="stage2">
+			
+			9999
+		</div>
+		<script>
+			function checkPassword() {
+				const password = document.getElementById('password').value;
+				const correctPassword = '123456'; // 这里可以设置你的密码
+
+				if (password === correctPassword) {
+					document.getElementById('stage1').style.display = 'none';
+					document.getElementById('stage2').style.display = 'block';
+				} else {
+					alert('密码错误，请重新输入！');
+				}
+			}
+			
+			
+		</script> -->
+
+		<div id="stage1">
+			<label for="password">请输入密码：</label>
+			<input type="password" id="password">
+			<button onclick="checkPassword()">提交</button>
+		</div>
+		<div id="stage2" style="display: none;">
+
+			<div class="container" id="container">
+				<aside class="left-bar" id="leftBar">
+					<div class="title">
+						<p>自己测试</p>
+					</div>
+					<nav class="nav">
+						<!-- <div class="item active"><a href=""><i class="iconfont icon-daohang2"></i>飞叶导航http://ifeiye.gitee.io/dh/</a><i class="line"></i></div> -->
+						<ul class="nav-item" id="navItem">
+							<li><a href="#top" class="active"><i class="iconfont icon-zuijinchangyong"></i>常用</a></li>
+							<li><a href="#2"><i class="iconfont icon-favorfill"></i>无名网</a></li>
+							<li><a href="#3"><i class="iconfont icon-favorfill"></i>柠檬导航</a></li>
+							<li><a href="#4"><i class="iconfont icon-favorfill"></i>茄子TV</a></li>
+							<li><a href="#5"><i class="iconfont icon-favorfill"></i>SEAV在线</a></li>
+							<li><a href="#6"><i class="iconfont icon-favorfill"></i>草榴社区</a></li>
+							<li><a href="#7"><i class="iconfont icon-favorfill"></i>福利网址</a></li>
+							<li><a href="#8"><i class="iconfont icon-favorfill"></i>1024</a></li>
+							<li><a href="#9"><i class="iconfont icon-favorfill"></i>2048</a></li>
+							<li><a href="#10"><i class="iconfont icon-favorfill"></i>91porn</a></li>
+							<li><a href="#11"><i class="iconfont icon-favorfill"></i>奇虎影院</a></li>
+							<li><a href="#12"><i class="iconfont icon-favorfill"></i>黄色仓库</a></li>
+							<li><a href="#13"><i class="iconfont icon-favorfill"></i>小说</a></li>
+							<li><a href="#14"><i class="iconfont icon-favorfill"></i>集芳阁云搜</a></li>
+							<li><a href="#15"><i class="iconfont icon-favorfill"></i>图片</a></li>
+							<li><a href="#16"><i class="iconfont icon-favorfill"></i>看色网</a></li>
+							<li><a href="#17"><i class="iconfont icon-favorfill"></i>porn研究所</a></li>
+							<li><a href="#18"><i class="iconfont icon-favorfill"></i>海角社区</a></li>
+							<li><a href="#18"><i class="iconfont icon-favorfill"></i>海角-仿 冒</a></li>
+							<!-- <li><a href="#19"><i class="iconfont icon-favorfill"></i>看色网</a></li> -->
+
+						</ul>
+						<!-- <div class="item comment"><a target="_blank" href="http://ifeiye.gitee.io/dh/liuyan/index.html"><i class="iconfont icon-liuyan"></i>留言</a></div> -->
+					</nav>
+				</aside>
+				<section class="main">
+					<div id="mainContent">
+						<!-- 手机端菜单 -->
+						<div id="menu-box">
+							<div id="menu">
+
+								<label for="menu-form" class="menu-spin">
+									<div class="line diagonal line-1"></div>
+									<div class="line horizontal"></div>
+									<div class="line diagonal line-2"></div>
+								</label>
+							</div>
+						</div>
+
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="1"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>常用</div>
+							</div>
+							<div>
+								<a target="_blank" href="https://sk.baa28.com/seku/">
+									<div class="item">
+										<div class="no-logo">色库-视频截图+纯下载</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://sav83.top/?">
+									<div class="item">
+										<div class="no-logo">SEX-AV 集中营</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://福利玩.com">
+									<div class="item">
+										<div class="no-logo">福利网址-1</div>
+									</div>
+								</a>
+
+								<a target="_blank" href="https://xn--dtf-wzqcomcom-yp8ve33bkpevz1kpxq.sosuoci.com/">
+									<div class="item">
+										<div class="no-logo">我最全-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://我最全.com/">
+									<div class="item">
+										<div class="no-logo">我最全-2</div>
+									</div>
+								</a>
+
+
+								<!-- <a target="_blank" href="http://xgc4.xyz/">
+  								<div class="item">
+  									<div class="no-logo">杏工厂</div>
+  								</div>
+  							</a> -->
+
+								<a target="_blank" href="https://www.analvids.com/">
+									<div class="item">
+										<div class="no-logo">欧美analvids</div>
+									</div>
+								</a>
+								<!-- <a target="_blank" href="http://11diu.com/">
+  								<div class="item">
+  									<div class="no-logo">11diu</div>
+  								</div>
+  							</a> -->
+								<!-- <a target="_blank" href="http://that3.icu/">
+  								<div class="item">
+  									<div class="no-logo">蓝色导航</div>
+  								</div>
+  							</a> -->
+								<a target="_blank" href="https://t0319.91p789.com/index.php">
+									<div class="item">
+										<div class="no-logo">91自拍论坛</div>
+									</div>
+								</a>
+
+								<a target="_blank" href="https://www.fhz66.com/">
+									<div class="item">
+										<div class="no-logo">番号库</div>
+									</div>
+								</a>
+
+
+
+
+
+								<a target="_blank" href="https://tor.eff.org/zh-CN/">
+									<div class="item">
+										<div class="no-logo">Tor洋葱浏览器-墙-浏览器的socks代理填上 127.0.0.1:9050</div>
+									</div>
+								</a>
+
+							</div>
+						</div>
+
+
+						<div class="box">
+							<a href="#" name="2"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>猫咪网</div>
+							</div>
+							<div>
+
+								<a target="_blank" href="https://www.18913838add8.com/index/home.html">
+									<div class="item">
+										<div class="no-logo">猫咪网-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.2c2c7.com/enter/index.html">
+									<div class="item">
+										<div class="no-logo">猫咪网-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.instv493.com/">
+									<div class="item">
+										<div class="no-logo">ins网-1</div>
+									</div>
+								</a>
+
+								<a target="_blank" href="http://www.maomiav.com/">
+									<div class="item">
+										<div class="no-logo">猫咪网-永久-墙</div>
+									</div>
+								</a>
+
+
+							</div>
+						</div>
+
+
+						<div class="box">
+							<a href="#" name="2"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>无名网</div>
+							</div>
+							<div>
+
+								<a target="_blank" href="https://wm.wmaa3.com/">
+									<div class="item">
+										<div class="no-logo">无名网-0</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://w.m7vo.com/">
+									<div class="item">
+										<div class="no-logo">无名网-0</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://9wm9.com">
+									<div class="item">
+										<div class="no-logo">无名网-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://9wm9.cc">
+									<div class="item">
+										<div class="no-logo">无名网-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://9wm9.pw">
+									<div class="item">
+										<div class="no-logo">无名网-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://9wm9.xyz">
+									<div class="item">
+										<div class="no-logo">无名网-4</div>
+									</div>
+								</a>
+
+							</div>
+						</div>
+
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="3"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>导航站点集合----注：按优先顺序排序</div>
+							</div>
+							<div>
+
+								<!-- ---------************-------*************------- -->
+								<div class="item4">
+									<div class="no-logo">福利网址</div>
+								</div>
+								<a target="_blank" href="https://福利玩.com">
+									<div class="item1">
+										<div class="no-logo">福利网址-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://福利网址.com/">
+									<div class="item">
+										<div class="no-logo">福利网址-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://秘密入口.com/">
+									<div class="item">
+										<div class="no-logo">福利网址-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://fulione.vip/">
+									<div class="item">
+										<div class="no-logo">福利网址-4</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://fulilogin.com">
+									<div class="item">
+										<div class="no-logo">福利网址-5</div>
+									</div>
+								</a>
+
+								<a target="_blank" href="https://fuliadd.com">
+									<div class="item">
+										<div class="no-logo">福利网址-永久域名</div>
+									</div>
+								</a>
+
+								<a target="_blank" href="https://fulione.com/">
+									<div class="item">
+										<div class="no-logo">福利网址-翻</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://fulione.github.io/www/">
+									<div class="item">
+										<div class="no-logo">福利网址-github</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://fulione.github.io/www/">
+									<div class="item">
+										<div class="no-logo">福利-发布页-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.ebay.com/usr/fulione">
+									<div class="item">
+										<div class="no-logo">福利-发布页-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:dizhi.fulione@gmail.com">
+									<div class="item">
+										<div class="no-logo">福利网址-邮箱地址</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:fulionedizhi@gmail.com">
+									<div class="item">
+										<div class="no-logo">福利网址-邮箱地址</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://t.me/FulioneCOM">
+									<div class="item">
+										<div class="no-logo">福利网址-tg</div>
+									</div>
+								</a>
+
+
+								<!-- ---------************-------*************------- -->
+								<div class="item4">
+									<div class="no-logo">柠檬导航</div>
+								</div>
+								<a target="_blank" href="https://www.meimei.cf/">
+									<div class="item1">
+										<div class="no-logo">柠檬导航-主域名-或许删掉www ?</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.where.gq/">
+									<div class="item">
+										<div class="no-logo">柠檬导航-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.friend.ga/">
+									<div class="item">
+										<div class="no-logo">柠檬导航-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://other3.ink/">
+									<div class="item">
+										<div class="no-logo">柠檬导航-4</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://night2.info/">
+									<div class="item">
+										<div class="no-logo">柠檬导航-5</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://www.where.cf/">
+									<div class="item">
+										<div class="no-logo">柠檬导航-6</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://lemon7.cyou/">
+									<div class="item">
+										<div class="no-logo">柠檬导航-7</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.fldh.fun/">
+									<div class="item">
+										<div class="no-logo">柠檬导航-地址发布页-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.fldh.pw/">
+									<div class="item">
+										<div class="no-logo">柠檬导航-地址发布页-2</div>
+									</div>
+								</a>
+
+								<a target="_blank" href="maioto:9dizhi@gmail.com">
+									<div class="item">
+										<div class="no-logo">柠檬导航-邮箱地址-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:269la@mail.com">
+									<div class="item">
+										<div class="no-logo">柠檬导航-邮箱地址-2</div>
+									</div>
+								</a>
+
+
+
+
+
+								<!-- ---------************-------*************------- -->
+								<div class="item4">
+									<div class="no-logo">找AV123</div>
+								</div>
+								<a target="_blank" href="https://www.zhaoav.bike/">
+									<div class="item">
+										<div class="no-logo">找AV123-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://www.zhaoav7.cafe/">
+									<div class="item">
+										<div class="no-logo">找AV123-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.zhaoav8.ink/">
+									<div class="item">
+										<div class="no-logo">找AV123-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.zhaoav3.ink/">
+									<div class="item">
+										<div class="no-logo">找AV123-4</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.fuli.wtf/">
+									<div class="item">
+										<div class="no-logo">找AV-发布页</div>
+									</div>
+								</a>
+
+
+								<!-- ---------************-------*************------- -->
+								<div class="item4">
+									<div class="no-logo">绿色小导航</div>
+								</div>
+								<a target="_blank" href="https://6000a.email/">
+									<div class="item">
+										<div class="no-logo">绿色小导航-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://7000e.club/">
+									<div class="item">
+										<div class="no-logo">绿色小导航-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://2000d.icu/">
+									<div class="item">
+										<div class="no-logo">绿色小导航-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://1023.email/">
+									<div class="item">
+										<div class="no-logo">绿色小导航-4</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.fldh.pub">
+									<div class="item">
+										<div class="no-logo">绿色小导航-5</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.fldh.bike">
+									<div class="item">
+										<div class="no-logo">绿色小导航-6</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://g.my.to">
+									<div class="item">
+										<div class="no-logo">绿色小导航-7</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://greenfl.neocities.org/">
+									<div class="item">
+										<div class="no-logo">绿色小导航-发布页-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.ebay.com/usr/greendh">
+									<div class="item">
+										<div class="no-logo">绿色小导航-发布页-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:8dizhi@gmail.com">
+									<div class="item">
+										<div class="no-logo">绿色小导航-邮箱获取地址</div>
+									</div>
+								</a>
+
+
+								<!-- ---------************-------*************------- -->
+								<div class="item4">
+									<div class="no-logo">小黄鸭导航</div>
+								</div>
+								<a target="_blank" href="https://xhydh63.top/">
+									<div class="item">
+										<div class="no-logo">小黄鸭导航-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://xhydh61.top/">
+									<div class="item">
+										<div class="no-logo">小黄鸭导航-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://xhydh56.top/">
+									<div class="item">
+										<div class="no-logo">小黄鸭导航-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://xhydh888.com">
+									<div class="item">
+										<div class="no-logo">小黄鸭导航-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://github.com/xhydh123/xhydh">
+									<div class="item">
+										<div class="no-logo">小黄鸭导航-git发布页</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://xhydh123.github.io/">
+									<div class="item">
+										<div class="no-logo">小黄鸭导航-git发布页-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:baidu8869@gmail.com">
+									<div class="item">
+										<div class="no-logo">小黄鸭导航-邮箱地址</div>
+									</div>
+								</a>
+
+
+							</div>
+						</div>
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="4"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>茄子TV-----更多 无用且相同 发布页已屏蔽，展开代码可见</div>
+							</div>
+							<div>
+								<!--	賬號：J5XP6
+  									密碼：123456
+  									已经处理过，观看次数 9999
+  							-->
+								<a target="_blank" href="https://qq.com.qzhw19.top/">
+									<div class="item">
+										<div class="no-logo">茄子tv-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://qq.com.qzhw19.xyz/">
+									<div class="item">
+										<div class="no-logo">茄子tv-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://qq.com.qzhw18.top/">
+									<div class="item">
+										<div class="no-logo">茄子tv-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://qq.com.qzhw18.xyz/">
+									<div class="item">
+										<div class="no-logo">茄子tv-4</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://qq.com.qzhw17.top/">
+									<div class="item">
+										<div class="no-logo">茄子tv-5</div>
+									</div>
+								</a>
+
+
+
+								<a target="_blank" href="https://qq.com.qzmp22.top">
+									<div class="item">
+										<div class="no-logo">茄子tv-发布页</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://github.com/ab52147/sexdizhi/tree/main">
+									<div class="item">
+										<div class="no-logo">茄子tv-GitHub发布页</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:hehei154245@gmail.com">
+									<div class="item">
+										<div class="no-logo">茄子tv-邮箱地址</div>
+									</div>
+								</a>
+
+								<!-- 以下为多个发布页面，太多了，统一屏蔽 -->
+								<!-- <a target="_blank" href="https://qq.com.qzhw9.xyz/">
+  								<div class="item">
+  									<div class="no-logo">茄子tv-发布页1</div>
+  								</div>
+  							</a>
+  							<a target="_blank" href="https://qq.com.qzhw8.xyz/">
+  								<div class="item">
+  									<div class="no-logo">茄子tv-发布页2</div>
+  								</div>
+  							</a>
+  							<a target="_blank" href="https://qq.com.qzhw7.xyz/">
+  								<div class="item">
+  									<div class="no-logo">茄子tv-发布页3</div>
+  								</div>
+  							</a>
+  							<a target="_blank" href="https://qq.com.qzhw6.xyz/">
+  								<div class="item">
+  									<div class="no-logo">茄子tv-发布页4</div>
+  								</div>
+  							</a>
+  							<a target="_blank" href="https://qq.com.qzzx11.top">
+  								<div class="item">
+  									<div class="no-logo">茄子tv-发布页5</div>
+  								</div>
+  							</a>
+  							<a target="_blank" href="https://laiakan.com">
+  								<div class="item">
+  									<div class="no-logo">茄子tv-发布页6-永久地址</div>
+  								</div>
+  							</a>
+  							<a target="_blank" href="https://qzxinjia1.com/">
+  								<div class="item">
+  									<div class="no-logo">茄子tv-发布页7</div>
+  								</div>
+  							</a> -->
+
+
+							</div>
+						</div>
+
+
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="6"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>草榴社区</div>
+							</div>
+							<div>
+								<a target="_blank" href="https://cl.3097x.xyz/index.php">
+									<div class="item1">
+										<div class="no-logo">草榴社区-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://cl.3097y.xyz/">
+									<div class="item">
+										<div class="no-logo">草榴社区-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://cl.3097z.xyz/">
+									<div class="item">
+										<div class="no-logo">草榴社区-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.jklbn.xyz/">
+									<div class="item">
+										<div class="no-logo">草榴社区-发布页-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://t66y.com/">
+									<div class="item">
+										<div class="no-logo">草榴社区-1-墙</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.gfaqvij.xyz/">
+									<div class="item">
+										<div class="no-logo">草榴社区-发布页-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://github.com/yuuwill/1024app-android/releases">
+									<div class="item">
+										<div class="no-logo">草榴社区-GitHub-安卓客户端3</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://github.com/yuuwill/1024app-uwp/releases">
+									<div class="item">
+										<div class="no-logo">草榴社区-githubPC发布器-4</div>
+									</div>
+								</a>
+
+								<a target="_blank" href="mailto:cldzhq@gmail.com">
+									<div class="item">
+										<div class="no-logo">草榴社区-邮箱获取地址</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="6"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>bangpron</div>
+							</div>
+							<div>
+								<a target="_blank" href="https://ba7mjxmmsycbmb.com:29875/">
+									<div class="item1">
+										<div class="no-logo">bangpron-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://BA99991.com">
+									<div class="item">
+										<div class="no-logo">bangpron-永久地址-1-貌似被墙</div>
+									</div>
+								</a>
+								<a target="_blank" href="https:YP22222.com">
+									<div class="item">
+										<div class="no-logo">bangpron-永久地址-2-貌似被墙</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:yongjiuav@gmail.com">
+									<div class="item">
+										<div class="no-logo">bangpron-邮箱地址</div>
+									</div>
+								</a>
+							</div>
+						</div>
+
+
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="8"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>1024</div>
+							</div>
+							<div>
+								<a target="_blank" href="http://k6.csnmdcjnx.xyz/pw/">
+									<div class="item">
+										<div class="no-logo">1024核工厂-可用</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://a2303s.xyz/pw/index.php">
+									<div class="item">
+										<div class="no-logo">1024核工厂-可用</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://mk2207.com/pw/">
+									<div class="item">
+										<div class="no-logo">1024核工厂-可用</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://dh2302t.cc/bbs.php">
+									<div class="item">
+										<div class="no-logo">1024核工厂-可用</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://9k1024.com">
+									<div class="item">
+										<div class="no-logo">1024-1-墙</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://9k1024.cc">
+									<div class="item">
+										<div class="no-logo">1024-2-墙</div>
+									</div>
+								</a>
+
+
+								<a target="_blank" href="http://1024new.com/">
+									<div class="item">
+										<div class="no-logo">1024-视频</div>
+									</div>
+								</a>
+								<a target="_blank"
+									href="https://www.koodw.com/FB048D07E76E2E3BBB9230C2B383E6EF8D0F7952">
+									<div class="item">
+										<div class="no-logo">1024-回家指南 点击下载</div>
+									</div>
+								</a>
+
+							</div>
+						</div>
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="9"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>2048</div>
+							</div>
+							<div>
+
+								<a target="_blank" href="https://imessege.com/2048/">
+									<div class="item1">
+										<div class="no-logo">2048 -地址1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://s3366.com/2048/">
+									<div class="item">
+										<div class="no-logo">2048 -地址2</div>
+									</div>
+								</a>
+
+								<a target="_blank" href="https://tnxxw.com/">
+									<div class="item">
+										<div class="no-logo">2048核基地-永久地址-翻</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://hjd2048.com/">
+									<div class="item">
+										<div class="no-logo">2048核基地-永久地址-翻</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://huimami.com/">
+									<div class="item">
+										<div class="no-logo">2048-地址发布页-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://zequ.net/">
+									<div class="item">
+										<div class="no-logo">2048-地址发布页-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:hjd2048@gmail.com">
+									<div class="item">
+										<div class="no-logo">2048-邮件地址</div>
+									</div>
+								</a>
+
+
+
+							</div>
+						</div>
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="10"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>91porn</div>
+							</div>
+							<div>
+
+								<a target="_blank" href="https://1028.workgreat11.live/">
+									<div class="item1">
+										<div class="no-logo">91-地址-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.91zuixindizhi.com">
+									<div class="item">
+										<div class="no-logo">91-地址-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://t0319.91p789.com/index.php">
+									<div class="item1">
+										<div class="no-logo">91-自拍</div>
+									</div>
+								</a>
+
+								<a target="_blank" href="http://91porn.com/">
+									<div class="item">
+										<div class="no-logo">91porn-官-翻</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.ebay.com/usr/91home">
+									<div class="item">
+										<div class="no-logo">91-发布页1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://t1222.91p01.app/viewthread.php?tid=97046">
+									<div class="item">
+										<div class="no-logo">91-发布页2</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto: 91@91dizhi.com">
+									<div class="item">
+										<div class="no-logo">91-邮箱地址</div>
+									</div>
+								</a>
+
+							</div>
+						</div>
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="11"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>奇虎影院</div>
+							</div>
+							<div>
+								<a target="_blank" href="https://www.91qihu.cyou/">
+									<div class="item">
+										<div class="no-logo">奇虎影院-翻</div>
+									</div>
+								</a>
+
+
+							</div>
+						</div>
+
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="12"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>黄色仓库</div>
+							</div>
+							<div>
+
+								<a target="_blank" href="http://fahsck.cc/">
+									<div class="item1">
+										<div class="no-logo">黄色仓库-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://hscangku.com/">
+									<div class="item">
+										<div class="no-logo">黄色仓库-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://hsck.net/">
+									<div class="item">
+										<div class="no-logo">黄色仓库-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://lehsck.cc/">
+									<div class="item">
+										<div class="no-logo">黄色仓库-4</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://hsck.us">
+									<div class="item">
+										<div class="no-logo">黄色仓库-5</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://ikhsck.cc/">
+									<div class="item">
+										<div class="no-logo">黄色仓库-6</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://lmhsck.cc/">
+									<div class="item">
+										<div class="no-logo">黄色仓库-7</div>
+									</div>
+								</a>
+
+							</div>
+						</div>
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="6"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>jav在线</div>
+							</div>
+							<div>
+								<a target="_blank" href="httpS://jav559.com">
+									<div class="item1">
+										<div class="no-logo">jav-1-永久</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://jav176.top">
+									<div class="item">
+										<div class="no-logo">jav-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://jav177.top">
+									<div class="item">
+										<div class="no-logo">jav-3</div>
+									</div>
+								</a>
+
+							</div>
+						</div>
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="6"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>以下4个都是同一模板，有广告</div>
+							</div>
+							<div>
+								<!-- ************----------************ -->
+								<div class="item4">
+									<div class="no-logo">偷偷啪视频</div>
+								</div>
+								<a target="_blank" href="httpS://www.toutoupa.com">
+									<div class="item">
+										<div class="no-logo">偷偷啪视频-1-永久</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://www.toutoupa.shop">
+									<div class="item">
+										<div class="no-logo">偷偷啪视频-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://www.toutoupa1024.fun">
+									<div class="item">
+										<div class="no-logo">偷偷啪视频-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://toutoupa.xindizhi.shop">
+									<div class="item">
+										<div class="no-logo">偷偷啪视频-4</div>
+									</div>
+								</a>
+
+
+								<!-- ************----------************ -->
+								<div class="item4">
+									<div class="no-logo">西瓜色视频</div>
+								</div>
+								<a target="_blank" href="httpS://www.xiguase.com">
+									<div class="item">
+										<div class="no-logo">西瓜色视频-1-永久</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://www.xiguase.cc">
+									<div class="item">
+										<div class="no-logo">西瓜色视频-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://www.xiguase.me">
+									<div class="item">
+										<div class="no-logo">西瓜色视频-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://www.saoxigua.com">
+									<div class="item">
+										<div class="no-logo">西瓜色视频-4</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://xiguase.xindizhi.shop">
+									<div class="item">
+										<div class="no-logo">西瓜色视频-5</div>
+									</div>
+								</a>
+
+								<!-- ************----------************ -->
+								<div class="item4">
+									<div class="no-logo">jav111</div>
+								</div>
+								<a target="_blank" href="httpS://www.jav111.com">
+									<div class="item">
+										<div class="no-logo">jav111-1-永久</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://www.jav111.shop">
+									<div class="item">
+										<div class="no-logo">jav111-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://www.jav222.fun">
+									<div class="item">
+										<div class="no-logo">jav111-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://jav111.xindizhi.shop">
+									<div class="item">
+										<div class="no-logo">jav111-4</div>
+									</div>
+								</a>
+
+
+								<!-- ************----------************ -->
+								<div class="item4">
+									<div class="no-logo">好色妻</div>
+								</div>
+								<a target="_blank" href="httpS://www.haoseqi.com">
+									<div class="item">
+										<div class="no-logo">好色妻-1-永久</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://www.haoseqi.net">
+									<div class="item">
+										<div class="no-logo">好色妻-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://www.hsq2023.fun">
+									<div class="item">
+										<div class="no-logo">好色妻-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="httpS://haoSeqi.xindizhi.shop">
+									<div class="item">
+										<div class="no-logo">好色妻-4</div>
+									</div>
+								</a>
+
+
+							</div>
+						</div>
+
+
+
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="13"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>小说</div>
+							</div>
+							<div>
+
+
+								<!-- ************----------************ -->
+								<div class="item4">
+									<div class="no-logo">集书阁</div>
+								</div>
+
+								<a target="_blank" href="https://集书阁.com">
+									<div class="item">
+										<div class="no-logo">集书阁-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://jishuge.vip">
+									<div class="item">
+										<div class="no-logo">集书阁-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://jishuge.one">
+									<div class="item">
+										<div class="no-logo">集书阁-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.ebay.com/usr/jishuge">
+									<div class="item">
+										<div class="no-logo">集书阁-地址发布页</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:jishugedz@gmail.com">
+									<div class="item">
+										<div class="no-logo">集书阁-邮箱获取地址</div>
+									</div>
+								</a>
+
+								<!-- ************----------************ -->
+								<div class="item4">
+									<div class="no-logo">兰文网</div>
+								</div>
+								<a target="_blank" href="https://www.lanwens.com/">
+									<div class="item">
+										<div class="no-logo">兰文网-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:lanwens@dushu.su">
+									<div class="item">
+										<div class="no-logo">兰文网-邮箱</div>
+									</div>
+								</a>
+
+
+								<!-- ************----------************ -->
+								<div class="item4">
+									<div class="no-logo">狼犬看书网</div>
+								</div>
+								<a target="_blank" href="https://www.lqkan.com/">
+									<div class="item">
+										<div class="no-logo">狼犬看书网-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:lqkan@dushu.su">
+									<div class="item">
+										<div class="no-logo">狼犬看书网-邮箱</div>
+									</div>
+								</a>
+
+
+
+
+							</div>
+						</div>
+
+
+
+
+						<!-- 一号分类 -->
+						<div class="box">
+							<a href="#" name="14"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>集芳阁 搜索 云搜 八爪鱼搜索</div>
+							</div>
+							<div>
+								<!-- ************----------************ -->
+								<div class="item4">
+									<div class="no-logo">集芳阁</div>
+								</div>
+								<a target="_blank" href="https://集芳阁.com">
+									<div class="item">
+										<div class="no-logo">集芳阁-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://jifangge.com">
+									<div class="item">
+										<div class="no-logo">集芳阁-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://jfgsou.com">
+									<div class="item">
+										<div class="no-logo">集芳阁-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://jifangge.org">
+									<div class="item">
+										<div class="no-logo">集芳阁-4</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.ebay.com/usr/jifangge">
+									<div class="item">
+										<div class="no-logo">集芳阁-地址发布页</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:jfgdizhi@gmail.com">
+									<div class="item">
+										<div class="no-logo">集芳阁-邮箱地址</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:jfgsososo@gmail.com">
+									<div class="item">
+										<div class="no-logo">集芳阁-邮箱地址-2</div>
+									</div>
+								</a>
+
+
+
+								<!-- ************----------************ -->
+								<div class="item4">
+									<div class="no-logo">集芳阁</div>
+								</div>
+								<a target="_blank" href="https://磁搜.com">
+									<div class="item">
+										<div class="no-logo">八爪鱼-磁搜-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://xn--qep-icisoucom-ys1uy68dc5nbt5fj7q.cilibaidu.xyz/">
+									<div class="item">
+										<div class="no-logo">八爪鱼-磁搜-备用地址</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://qep永久域名-icisou点com.cilibaidu.xyz/">
+									<div class="item">
+										<div class="no-logo">八爪鱼-磁搜-备用地址-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:bzyclss@outlook.com">
+									<div class="item">
+										<div class="no-logo">八爪鱼-邮箱</div>
+									</div>
+								</a>
+
+
+
+
+							</div>
+						</div>
+
+
+
+
+						<div class="box">
+							<a href="#" name="15"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>图片</div>
+							</div>
+							<div>
+								<!-- ************----------************ -->
+								<div class="item4">
+									<div class="no-logo">其他图片</div>
+								</div>
+								<a target="_blank" href="https://50-pic.com/">
+									<div class="item">
+										<div class="no-logo">每日50裸美图库</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://naizitu.xyz/">
+									<div class="item">
+										<div class="no-logo">奶子图</div>
+									</div>
+								</a>
+
+								<a target="_blank" href="https://nanrenhome.cc/category/nanrenzhijia/fulimeitu">
+									<div class="item">
+										<div class="no-logo">男人之家-福利美图</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://huaban.com/favorite/beauty">
+									<div class="item">
+										<div class="no-logo">花瓣美女</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://www.timliao.com/bbs/forumdisplay.php?fid=18">
+									<div class="item">
+										<div class="no-logo">提姆正妹网</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://52zipai.cyou/">
+									<div class="item">
+										<div class="no-logo">52自拍网</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://mm5237.top/">
+									<div class="item">
+										<div class="no-logo">高清写真</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.xiuren123.com/">
+									<div class="item">
+										<div class="no-logo">秀人网</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://www.xiurenn.top/">
+									<div class="item">
+										<div class="no-logo">秀人人</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://onapple.jp/">
+									<div class="item">
+										<div class="no-logo">工口画像</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://clickme.net/">
+									<div class="item">
+										<div class="no-logo">clickme</div>
+									</div>
+								</a>
+
+								<a target="_blank" href="https://imghub.cfd/">
+									<div class="item">
+										<div class="no-logo">imghub</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://jokerlu6.info/">
+									<div class="item">
+										<div class="no-logo">jokerlu6</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://www.nrzj.top/">
+									<div class="item">
+										<div class="no-logo">男人之家-永久地址</div>
+									</div>
+								</a>
+
+
+								<!-- ************----------************ -->
+								<div class="item4">
+									<div class="no-logo">自拍图</div>
+								</div>
+								<a target="_blank" href="https://自拍图.com/">
+									<div class="item">
+										<div class="no-logo">自拍图</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://自拍图库.com/">
+									<div class="item">
+										<div class="no-logo">自拍图-和前面一样</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:zipaituku@outlook.com">
+									<div class="item">
+										<div class="no-logo">自拍图-邮箱地址</div>
+									</div>
+								</a>
+
+
+								<!-- ************----------************ -->
+								<div class="item4">
+									<div class="no-logo">漫画 漫香阁</div>
+								</div>
+								<a target="_blank" href="https://漫香阁.com/">
+									<div class="item">
+										<div class="no-logo">漫香阁</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://成漫.com">
+									<div class="item">
+										<div class="no-logo">漫香阁-2-成漫</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://xn--d5l-mxgmxgcom-yp8ve33bkpevz1kpxq.mxgmxgcom.com/">
+									<div class="item">
+										<div class="no-logo">漫香阁-备用域名</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:manxiangge@outlook.com">
+									<div class="item">
+										<div class="no-logo">漫香阁-邮箱地址</div>
+									</div>
+								</a>
+
+
+							</div>
+						</div>
+
+
+
+
+
+						<div class="box">
+							<a href="#" name="16"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>看色网</div>
+							</div>
+							<div>
+								<a target="_blank" href="https://kanse.com/">
+									<div class="item1">
+										<div class="no-logo">看色网-永久地址-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://kansedizhi.com/jump/?link=1">
+									<div class="item">
+										<div class="no-logo">看色网-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://d27babks.cc/">
+									<div class="item">
+										<div class="no-logo">看色网-3</div>
+									</div>
+								</a>
+
+								<a target="_blank" href="https://kansedizhi.com/12/">
+									<div class="item">
+										<div class="no-logo">看色网-发布页</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://github.com/kansedizhi/1/wiki/1">
+									<div class="item">
+										<div class="no-logo">备用发布页-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://kansewang.neocities.org">
+									<div class="item">
+										<div class="no-logo">备用发布页-3</div>
+									</div>
+								</a>
+
+
+
+
+
+
+							</div>
+						</div>
+
+						<div class="box">
+							<a href="#" name="17"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>porn研究所</div>
+							</div>
+							<div>
+
+
+								<a target="_blank" href="https://porn研究所.com">
+									<div class="item1">
+										<div class="no-logo">porn研究所</div>
+									</div>
+								</a>
+								<a target="_blank"
+									href="https://xn--o29-pornsuocom-255xc16b0te7x3k3ura.xn--free-4e6hr13i9qd.com/">
+									<div class="item">
+										<div class="no-logo">备用地址-2</div>
+									</div>
+								</a>
+
+
+							</div>
+						</div>
+
+						<div class="box">
+							<a href="#" name="18"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>海角社区</div>
+							</div>
+							<div>
+
+								<a target="_blank" href="https://hjg64.com/">
+									<div class="item1">
+										<div class="no-logo">海角社区-国内</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://hja989.top/home">
+									<div class="item">
+										<div class="no-logo">海角社区-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://hjad50.top">
+									<div class="item">
+										<div class="no-logo">海角社区-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://www.haijiao.com/">
+									<div class="item">
+										<div class="no-logo">海角社区-国外-需翻</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:hjmorning@hjmorning.com">
+									<div class="item">
+										<div class="no-logo">海角社区-邮箱-1-新</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:haijiao2021@gmail.com">
+									<div class="item">
+										<div class="no-logo">海角社区-邮箱-2-旧</div>
+									</div>
+								</a>
+
+
+							</div>
+						</div>
+
+
+						<div class="box">
+							<a href="#" name="18"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>海角 乱 伦 社区 - - - 高仿，假冒，也可以看看</div>
+							</div>
+							<div>
+
+								<a target="_blank" href="https://bc0.ijzsdz.com/">
+									<div class="item1">
+										<div class="no-logo">海角-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://hx78z1.ywbush.com/">
+									<div class="item">
+										<div class="no-logo">海角-2</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://hx78z2.ywbush.com/">
+									<div class="item">
+										<div class="no-logo">海角-3</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://hx78z3.ywbush.com/">
+									<div class="item">
+										<div class="no-logo">海角-4</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://hx78z4.ywbush.com/">
+									<div class="item">
+										<div class="no-logo">海角-5</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://hx78z5.ywbush.com/">
+									<div class="item">
+										<div class="no-logo">海角-6</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://hx78z6.ywbush.com/">
+									<div class="item">
+										<div class="no-logo">海角-7</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://hx78z7.ywbush.com/">
+									<div class="item">
+										<div class="no-logo">海角-8</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://hx78z8.ywbush.com/">
+									<div class="item">
+										<div class="no-logo">海角-9</div>
+									</div>
+								</a>
+								<a target="_blank" href="">
+									<div class="item">
+										<div class="no-logo">海角-10</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://90.ipqjlb.com/">
+									<div class="item">
+										<div class="no-logo">海角-app</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://github.com/haijiaoWeb/haijiaoWeb">
+									<div class="item">
+										<div class="no-logo">海角-github</div>
+									</div>
+								</a>
+								<a target="_blank" href="mailto:haijiaoone@gmail.com">
+									<div class="item">
+										<div class="no-logo">海角-haijiaoone@gmail.com 邮箱-1</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://t.me/haijiaocc">
+									<div class="item">
+										<div class="no-logo">海角-TG</div>
+									</div>
+								</a>
+								<a target="_blank" href="http://plkt.org/HJSQ0">
+									<div class="item">
+										<div class="no-logo">海角-potato</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://haijiao.one/">
+									<div class="item">
+										<div class="no-logo">海角-墙</div>
+									</div>
+								</a>
+								<a target="_blank" href="https://haij.cc/">
+									<div class="item">
+										<div class="no-logo">海角-主-墙</div>
+									</div>
+								</a>
+
+
+
+							</div>
+						</div>
+
+
+
+
+
+						<div class="box">
+							<a href="#" name="999"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>翻墙内容</div>
+							</div>
+						</div>
+
+						<div class="box">
+							<a href="#" name="998"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>翻墙软件 加速器软件</div>
+							</div>
+
+							<div class="item4">
+								<div class="no-logo">VPN 节点 在github上面直接搜索 VPN 节点 翻 墙 等关键词</div>
+							</div><a target="_blank" href="https://ikuuu.me/">
+								<div class="item">
+									<div class="no-logo">ikuuu 免费</div>
+								</div>
+							</a><a target="_blank" href="https://sdkdns.github.io/">
+								<div class="item">
+									<div class="no-logo">sdkdns 三入口</div>
+								</div>
+							</a> <a target="_blank" href="https://clashgithub.com/">
+								<div class="item">
+									<div class="no-logo">免费clash节点|科学上网--免费公益</div>
+								</div>
+							</a><a target="_blank" href="https://www.v2rayfree.eu.org/">
+								<div class="item">
+									<div class="no-logo">免费v2 ray节点</div>
+								</div>
+							</a><a target="_blank" href="https://sdkdnspro.com/#/login">
+								<div class="item">
+									<div class="no-logo">sdkdns-1-收费</div>
+								</div>
+							</a><a target="_blank" href="https://sdkdns.org/#/login">
+								<div class="item">
+									<div class="no-logo">sdkdns-2</div>
+								</div>
+							</a><a target="_blank" href="https://www.v2rayfree.eu.org/f/getrss.html">
+								<div class="item">
+									<div class="no-logo">V2ray订阅地址自助获取-z@163</div>
+								</div>
+							</a><a target="_blank" href="https://github.com/freefq/free">
+								<div class="item">
+									<div class="no-logo">github - V2ray 免费节点+软件</div>
+								</div>
+							</a><a target="_blank" href="https://www.burstlinker.com/">
+								<div class="item">
+									<div class="no-logo">burstlinker-156@q</div>
+								</div>
+							</a><a target="_blank" href="https://bulink.xyz/">
+								<div class="item">
+									<div class="no-logo">burstlinker-156@q</div>
+								</div>
+							</a><a target="_blank" href="https://go.huyun.ink/">
+								<div class="item">
+									<div class="no-logo">虎云-需注册，价格未知</div>
+								</div>
+							</a><a target="_blank" href="https://www.liangqiqi.com/">
+								<div class="item">
+									<div class="no-logo">V2una-关闭注册</div>
+								</div>
+							</a><!-- <a target="_blank" href="https://vpn.zhenyevpn.xyz/"><div class="item"><div class="no-logo">真夜-幻神节点-chrome</div></div></a> --><!-- <a target="_blank" href="https://pac.itzmx.com/"><div class="item"><div class="no-logo">PAC地址</div></div></a> --><!-- <a target="_blank" href="https://xiaohongniang.xyz/"><div class="item"><div class="no-logo">小红娘---地址失效</div></div></a> --><!-- ************----------************ -->
+							<div class="item4">
+								<div class="no-logo">软件</div>
+							</div><a target="_blank" href="https://github.com/getlantern/download">
+								<div class="item">
+									<div class="no-logo">蓝灯</div>
+								</div>
+							</a><a target="_blank" href="https://telegram.org/">
+								<div class="item">
+									<div class="no-logo">telegram官网-翻</div>
+								</div>
+							</a><a target="_blank" href="https://github.com/bannedbook/">
+								<div class="item">
+									<div class="no-logo">安卓-PC-ISO-mac翻墙软件</div>
+								</div>
+							</a><a target="_blank" href="./tools.html#11">
+								<div class="item">
+									<div class="no-logo">其他翻墙软件</div>
+								</div>
+							</a><!-- ************----------************ --><!-- <div class="item4"><div class="no-logo">浏览器插件</div></div> --><!-- <a target="_blank"href="https://microsoftedge.microsoft.com/addons/detail/bestgo-vpn-unlimited-fr/lmghfdllmchekpjlaeafkohakafkoccp"><div class="item"><div class="no-logo">edge插件-bestgo</div></div></a> --><!-- ************----------************ -->
+							<div class="item4">
+								<div class="no-logo">2023.10.17在梅林论坛上看到的，科 学 上网，都要注册，我只是搬运，并不了解情况</div>
+							</div><a target="_blank" href="https://xxjc.vip/">
+								<div class="item">
+									<div class="no-logo">小小机场</div>
+								</div>
+							</a><a target="_blank" href="https://www.cryxr.xyz/#/login">
+								<div class="item">
+									<div class="no-logo">探索者</div>
+								</div>
+							</a><a target="_blank" href="https://www.q1cloud.me/">
+								<div class="item">
+									<div class="no-logo">奇幻</div>
+								</div>
+							</a><a target="_blank" href="https://qq.myyuyu.me/">
+								<div class="item">
+									<div class="no-logo">飞鱼</div>
+								</div>
+							</a><a target="_blank" href="https://zhuri.cc/auth/login">
+								<div class="item">
+									<div class="no-logo">逐日</div>
+								</div>
+							</a><a target="_blank" href="https://portal.cmy.network/index">
+								<div class="item">
+									<div class="no-logo">红莓网络</div>
+								</div>
+							</a><!-- ************----------************ -->
+							<div class="item4">
+								<div class="no-logo">GitHub steam 加速软件</div>
+							</div><a target="_blank" href="https://www.52pojie.cn/thread-1611214-1-1.html">
+								<div class="item">
+									<div class="no-logo">GitHub加速访问</div>
+								</div>
+							</a><a target="_blank" href="https://wwi.lanzouj.com/b01dbu7yh">
+								<div class="item">
+									<div class="no-logo">GitHub<dfn title="密码 d5ba">加速访问</dfn></div>
+								</div>
+							</a><a target="_blank" href="https://steampp.net/">
+								<div class="item">
+									<div class="no-logo">GitHub + steam 加速</div>
+								</div>
+							</a><a target="_blank" href="https://github.com/BeyondDimension/SteamTools">
+								<div class="item">
+									<div class="no-logo">GitHub + steam 加速-2</div>
+								</div>
+							</a><a target="_blank" href="https://gitee.com/docmirror/dev-sidecar">
+								<div class="item">
+									<div class="no-logo">dev-sidecar GitHub 加速</div>
+								</div>
+							</a><a target="_blank"
+								href="https://greasyfork.org/zh-CN/scripts/412245-github-%E5%A2%9E%E5%BC%BA-%E9%AB%98%E9%80%9F%E4%B8%8B%E8%BD%BD">
+								<div class="item">
+									<div class="no-logo">油猴脚本 GitHub加速插件</div>
+								</div>
+							</a>
+
+						</div>
+
+
+
+						<div class="box">
+							<a href="#" name="666"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>吃瓜</div>
+							</div>
+						</div>
+
+						<div class="box">
+							<a href="#" name="666"></a>
+							<div class="sub-category">
+								<div><i class="iconfont icon-zuijinchangyong"></i>吃瓜</div>
+							</div>
+
+							<div class="item4">
+								<div class="no-logo">51吃瓜网 地址中 “htm2z1” “hx78z1” 最后一位数字“1”可以改为1-999任意数字</div>
+							</div><a target="_blank" href="https://htm2z1.kvtkqa.com/">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-0</div>
+								</div>
+							</a><a target="_blank" href="https://hx78z1.kvtkqa.com/">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-1</div>
+								</div>
+							</a><a target="_blank" href="https://hx78z2.kvtkqa.com/">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-2</div>
+								</div>
+							</a><a target="_blank" href="https://hx78z3.kvtkqa.com/">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-3</div>
+								</div>
+							</a><a target="_blank" href="https://hx78z4.kvtkqa.com/">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-4</div>
+								</div>
+							</a><a target="_blank" href="https://huqpz1.kvtkqa.com/">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-5</div>
+								</div>
+							</a><a target="_blank" href="https://51chigua.win/">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-发布页-0</div>
+								</div>
+							</a><a target="_blank" href="https://51cg0.cc/">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-发布页-1</div>
+								</div>
+							</a><a target="_blank" href="https://51cg.bet/">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-发布页-2</div>
+								</div>
+							</a><a target="_blank" href="https://51cg0.me/">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-发布页-3</div>
+								</div>
+							</a><a target="_blank" href="https://51cg.lol/">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-发布页-4</div>
+								</div>
+							</a><a target="_blank" href="https://githubfast.com/51cg1/">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-发布页-github-1</div>
+								</div>
+							</a><a target="_blank" href="https://githubfast.com/51chigua">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-发布页-github-2</div>
+								</div>
+							</a><a target="_blank" href="mailto:51cgfun@gmail.com">
+								<div class="item">
+									<div class="no-logo">51吃瓜网-邮件地址51cgfun@gmail.com-发送任意邮件获取地址</div>
+								</div>
+							</a><a target="_blank" href="https://t.me/https51cgfun">
+								<div class="item">
+									<div class="no-logo">51吃瓜官方公告频道-TG</div>
+								</div>
+							</a><a target="_blank" href="https://t.me/chigua51">
+								<div class="item">
+									<div class="no-logo">51吃瓜官方频道-TG</div>
+								</div>
+							</a><a target="_blank" href="https://t.me/https51cgfun/13">
+								<div class="item">
+									<div class="no-logo">51吃瓜官方用户群-TG</div>
+								</div>
+							</a><a target="_blank" href="https://twitter.com/51cg_fun">
+								<div class="item">
+									<div class="no-logo">51吃瓜官方用户群-twitter</div>
+								</div>
+							</a><a target="_blank" href="https://385.jszrer.com/">
+								<div class="item">
+									<div class="no-logo">51吃瓜-app</div>
+								</div>
+							</a><a target="_blank" href="https://12.ziaufx.com/">
+								<div class="item">
+									<div class="no-logo">51吃瓜-app-2</div>
+								</div>
+							</a><a target="_blank" href="https://51cg.fun">
+								<div class="item">
+									<div class="no-logo">51吃瓜永久地址-被墙-需魔法</div>
+								</div>
+							</a><!-- ************----------************ -->
+							<div class="item4">
+								<div class="no-logo">黑料不打烊 黑料网 吃瓜</div>
+							</div><a target="_blank" href="https://zztt48.com/">
+								<div class="item">
+									<div class="no-logo">黑料网-1</div>
+								</div>
+							</a><a target="_blank" href="https://w24hf.uztled.com/">
+								<div class="item">
+									<div class="no-logo">黑料网-2</div>
+								</div>
+							</a><a target="_blank" href="https://uyfb0.dbxmyz.com/">
+								<div class="item">
+									<div class="no-logo">黑料网-3</div>
+								</div>
+							</a><a target="_blank" href="https://kvr15.uztled.com/">
+								<div class="item">
+									<div class="no-logo">黑料网-4</div>
+								</div>
+							</a><a target="_blank" href="https://yhj04.dbxmyz.com/">
+								<div class="item">
+									<div class="no-logo">黑料网-5</div>
+								</div>
+							</a><a target="_blank" href="https://qkac.kflkqs.com/">
+								<div class="item">
+									<div class="no-logo">黑料网-6</div>
+								</div>
+							</a><a target="_blank" href="https://hl14.co/">
+								<div class="item">
+									<div class="no-logo">黑料网-发布页-1</div>
+								</div>
+							</a><a target="_blank" href="https://cc1.gcvudo.com/">
+								<div class="item">
+									<div class="no-logo">黑料网-app-1</div>
+								</div>
+							</a><a target="_blank" href="mailto:155dizhi@gmail.com">
+								<div class="item">
+									<div class="no-logo">黑料网-邮箱地址-1</div>
+								</div>
+							</a><!-- <a target="_blank" href="mailto:heiliaobdy@gmail.com"><div class="item"><div class="no-logo">黑料网-邮箱地址-2</div></div></a> --><a
+								target="_blank" href="https://githubfast.com/heiliao">
+								<div class="item">
+									<div class="no-logo">黑料网-github地址</div>
+								</div>
+							</a><a target="_blank" href="https://t.me/heiliao1">
+								<div class="item">
+									<div class="no-logo">黑料网-TG频道</div>
+								</div>
+							</a><!-- <a target="_blank" href="https://t.me/zztt520"><div class="item"><div class="no-logo">黑料不打烊-telegram 频道</div></div></a> --><a
+								target="_blank" href="https://twitter.com/heiliao8">
+								<div class="item">
+									<div class="no-logo">黑料网-推特频道</div>
+								</div>
+							</a><a target="_blank" href="https://155.fun/">
+								<div class="item">
+									<div class="no-logo">黑料网-主站-被墙</div>
+								</div>
+							</a>
+						</div>
+
+
+
+
+					</div>
+
+
+
+
+
+
+					<footer class="footer">
+						<div class="copyright">
+							<div>
+								Copyright © 2020- 2021
+								<!-- 网页布局代码参考飞叶导航 -->
+								<a target="_blank" href="http://ifeiye.com">飞叶导航</a>
+								<!-- 飞叶导航开源地址 -->
+								<a target="_blank" href="https://gitee.com/ifeiye/dh">飞叶导航开源地址</a>
+
+								<!-- 搜索部分参考一纳米导航 -->
+								<a target="_blank" href="http://www.1nami.com/">一纳米导航</a>
+							</div>
+						</div>
+					</footer>
+					<div id="fixedBar"><svg class="Zi Zi--BackToTop" title="回到顶部" fill="currentColor"
+							viewBox="0 0 24 24" width="24" height="24">
+							<path
+								d="M16.036 19.59a1 1 0 0 1-.997.995H9.032a.996.996 0 0 1-.997-.996v-7.005H5.03c-1.1 0-1.36-.633-.578-1.416L11.33 4.29a1.003 1.003 0 0 1 1.412 0l6.878 6.88c.782.78.523 1.415-.58 1.415h-3.004v7.005z">
+								<!-- <path> 一个向上的箭头 </path> -->
+							</path>
+						</svg></div>
+				</section>
+				<script src="js/jquery.js"></script>
+				<script>
+					var oMenu = document.getElementById('menu');
+					var oLeftBar = document.getElementById('leftBar');
+					var menuFrom = document.getElementById('menu-form');
+
+					oMenu.onclick = function() {
+						if (oLeftBar.offsetLeft == 0) {
+							oLeftBar.style.left = -249 + 'px';
+						} else {
+							oLeftBar.style.left = 0;
+						}
+					}
+
+
+					// 监听页面宽度变化
+					window.onresize = function() {
+						judgeWidth();
+						// console.log(document.documentElement.clientWidth);
+					};
+
+					// 判断页面宽度
+					function judgeWidth() {
+						if (document.documentElement.clientWidth > 481) {
+							oLeftBar.style.left = 0;
+						} else {
+							oLeftBar.style.left = -249 + 'px';
+						}
+					}
+
+
+					var oNavItem = document.getElementById('navItem');
+					var aA = oNavItem.getElementsByTagName('a');
+					for (var i = 0; i < aA.length; i++) {
+						aA[i].onclick = function() {
+							for (var j = 0; j < aA.length; j++) {
+								aA[j].className = '';
+							}
+							this.className = 'active';
+							if (oLeftBar.offsetLeft == 0) {
+								if (document.documentElement.clientWidth <= 481) {
+									oLeftBar.style.left = -249 + 'px';
+									menuFrom.checked = false;
+
+								}
+							}
+						}
+					}
+
+
+					$(window).scroll(function() {
+						if ($(window).scrollTop() >= 200) {
+							$('#fixedBar').fadeIn(300);
+						} else {
+							$('#fixedBar').fadeOut(300);
+						}
+					});
+					$('#fixedBar').click(function() {
+						$('html,body').animate({
+							scrollTop: '0px'
+						}, 800);
+					})
+				</script>
+
+
+
+			</div>
+
+		</div>
+
+		<script>
+			let errorCount = 0; // 添加一个计数器来记录密码错误的次数
+
+			function checkPassword() {
+				const password = document.getElementById('password').value;
+				const correctPassword = '1024'; // 这里可以设置你的密码
+
+				if (password === correctPassword) {
+					document.getElementById('stage1').style.display = 'none';
+					document.getElementById('stage2').style.display = 'block';
+					errorCount = 0; // 如果密码正确，重置错误次数
+				} else {
+					errorCount++; // 如果密码错误，增加错误次数
+					if (errorCount == 3) { // 如果错误次数为3次
+						alert('密码为 1024 '); // 显示提示词"abc"
+					} else {
+						alert('密码错误，请重新输入！');
+					}
+				}
+			}
+		</script>
+
+	</body>
+</html>
