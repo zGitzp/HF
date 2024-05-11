@@ -279,6 +279,93 @@ button {
 
 
 
+.box-a {
+	overflow: hidden;
+	margin: 200px 100px;
+	background: #fff;
+	padding-bottom: 20px
+}
+
+
+.abc-a {
+	overflow: hidden;
+	margin: 30px 10px 0px;
+	background: #fff;
+	/* padding-bottom: 20px */
+}
+
+.sub-category-a>div {
+	padding: 12px 0 0 2.1%;
+	font-size: 18px
+}
+
+.no-logo-a {
+	height: 40px;
+	/* position: relative; */
+	font-size: 20px;
+	font-weight: 700;
+	color: #3273dc;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+	/* position: absolute; */
+	/* top: 50%;
+	left: 50%; */
+	/* transform: translate(-50%, -50%); */
+	float: left;
+	padding: 0 .2rem
+}
+
+.item-a {
+	width: 20%;
+	border: 1px solid #e4ecf3;
+	box-shadow: 1px 2px 3px #f2f6f8;
+	border-radius: 6px;
+	background: #fff93a;
+	padding: 5px;
+	min-width: 150px;
+	margin: 5px 0 0 2.1%;
+	float: none;
+	margin: 0 auto;
+	overflow: hidden;
+	transition: all .3s
+}
+
+.item-a:hover {
+	transform: translateY(-2px);
+	background-color: #ffb972
+		/* 鼠标划过时,文本框向上弹起 2 px */
+}
+
+.item-b {
+	width: 20%;
+	border: 1px solid #e4ecf3;
+	box-shadow: 1px 2px 3px #f2f6f8;
+	border-radius: 6px;
+	background: #00ff00;
+	padding: 5px;
+	min-width: 150px;
+	margin: 5px 0 0 2.1%;
+	float: none;
+	margin: 0 auto;
+	overflow: hidden;
+	transition: all .3s
+}
+
+.item-b:hover {
+	transform: translateY(-2px);
+	background-color: #ffb972
+		/* 鼠标划过时,文本框向上弹起 2 px */
+}
+
+
+
+
+
+
+
+
 
 
 
